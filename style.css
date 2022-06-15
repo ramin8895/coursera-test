@@ -6,7 +6,6 @@
   body{
       margin: 0;
       padding: 0;
-    font-family: "Comic Sans MS", cursive, sans-serif;
   }
   
   .row{
@@ -55,34 +54,34 @@
   }
   
   .name1{
-    background-color: #FFB6C1;
+    background-color: rgb(60, 255, 0);
   }
   
   .name2{
     color: white;
-    background-color: #FF0000;
+    background-color: #7c2b2b;
   }
   .name3{
-    background-color: #FFFF00;
+    background-color: #371fbd;
   }
   
   
-  /********** Large devices only **********/
+
   @media (min-width: 992px) {
-    .col-lg-4 {
+    .res1 {
         float: left;
       width: 33.33%;
     }
   }
-  /********** Medium devices only **********/
+
   @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6,.col-md-12 {
+    .res2,.res3 {
       float: left;
     }
-    .col-md-6 {
+    .res2 {
       width: 50%;
     }
-    .col-md-12 {
+    .res3 {
       margin-left: -10px;
       width: 100%;
     }
@@ -93,7 +92,7 @@
   }
   
   @media (min-width: 0px) and (max-width: 767px) {
-    .col-sm-12 {
+    .res3 {
         float: left;
       width: 100%;
     }
